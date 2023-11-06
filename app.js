@@ -58,6 +58,6 @@ const container = document.getElementById("app");
 
 
 data.forEach(item => {
-    const button = new Button(item.id, item.label, item.user.name)
-    button.render();
+    const butt = new Button(item.id, item.label, item.user.name)
+    butt.render();
 })
